@@ -1,0 +1,38 @@
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 2
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 102400MiB
+  operation: read
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 31250427 (3123678.50 per second)
+
+30518.00 MiB transferred (3050.47 MiB/sec)
+
+
+General statistics:
+    total time:                          10.0003s
+    total number of events:              31250427
+
+Latency (ms):
+         min:                                  0.00
+         avg:                                  0.00
+         max:                                  8.69
+         95th percentile:                      0.00
+         sum:                               6083.58
+
+Threads fairness:
+    events (avg/stddev):           15625213.5000/1084.50
+    execution time (avg/stddev):   3.0418/0.00
+
